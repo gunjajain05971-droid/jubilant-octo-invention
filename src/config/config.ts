@@ -7,18 +7,21 @@ export const getAsset = (path: string) => {
 const siteConfig = {
   personal: {
     name: 'Gunjan Jain',
-    title: 'Your Title | Your Role',
+    title: 'Student',
     image: getAsset('images/Image.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I am an undergraduate student with a strong interest in finance, accounting, and business analytics. I enjoy applying theoretical concepts to real-world problems through projects and independent learning. My focus is on building analytical, quantitative, and decision-making skills in the field of commerce.
+.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'I am currently pursuing my undergraduate studies, with key interests in finance, accounting, and business analytics. I focus on building practical skills through academic projects, data analysis, and financial modeling, with an emphasis on real-world business applications.
+.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'I am currently pursuing an undergraduate degree in commerce, with hands-on experience gained through academic projects, case studies, and independent research. My work focuses on applying financial and analytical concepts to practical business scenarios.
+.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
     tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    location: 'Bangalore, India',
   },
 
   seo: {
@@ -26,7 +29,7 @@ const siteConfig = {
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Builder'],
 
   navigation: [
     { name: 'Home', url: '/' },
